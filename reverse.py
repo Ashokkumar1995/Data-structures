@@ -1,11 +1,19 @@
 l = ['Google', 'Facebook', 'Yahoo', 'Google']
-# if(l.__contains__('Facebook')):
-#     l.remove('Facebook')
-#     l.append('Facebook')
+# c = l.count('Facebook')
 
-# l.reverse()
-# print(l.count('Google'))
-# print(tuple(l).count('Google'))
-# print(set(l))
+# print(c)
+# if l.__contains__('Facebook'):
+#     l.remove('Facebook')
+# l1 = []
+# for i in l:
+#     if not l1.__contains__(i):
+#         l1.append(i)
+
+# s = set(l)
+print(l)
+# print(s)
+
 t = tuple(l)
 print(t)
+d = {'A': ['Ashok', 'Ashwin']}
+print(d)
